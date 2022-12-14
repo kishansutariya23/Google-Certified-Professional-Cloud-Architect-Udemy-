@@ -1,0 +1,119 @@
+- You can activate your GCP account by going to below website
+    - [GCP](https://cloud.google.com/)
+    - Fill your details with account no.(credit card) and get free 300$ credit to learn GCP by doing handson
+- Get familiar with
+    - [Cloud console](https://console.cloud.google.com/)
+        - It is the home page of GCP from where you can navigate to other services, resources and other.
+    - [Region, Zones Data Centers](https://cloud.google.com/about/locations)
+        - Region
+            - Independent Geographic area that consist of Zone. Main purpose is to host applications near to your users to reduce Latency and Availability, Durability.
+        - Zones
+            - Physical Locations inside Regions. It provides geo redundancy. Used Mainly for High Availability inside Region.
+        - ex:- Assume Region is india && Zones are mumbai, delhi
+        - Google Data Center has
+            - Renewable Energy
+            - Custom Server
+            - Efficiency
+            - Data & Security
+    - [Network Backbone](https://cloud.google.com/about/locations#network)
+        - Beneath the SEA and Ground there are fibers which connect all Data center around the Globe.
+    - [GCP Services](../images/services.jpg)
+        - IaaS
+        - PaaS
+        - SaaS
+        - There are lots of services like compute, storage, AI, Big data,.. which comes in above
+    - GCP Interface
+        - GCP Console (GUI)
+        - Command-line interface
+            - gcloud, bg, ... [type gcloud on cmd prompt inside local computer if all library installed then we can interact with gcp through shell]
+            - on top right we can see the terminal option which is free to use, it is a CLI for GCP.
+        - API/Client libraries
+            - IDE, Editor, Postman(for REST), CURL
+    - GCP Projects
+        - Project is container in GCP.
+            - All work is done under the project like creating compute, storage ,.. resources and services.
+        - Track Resource and Quote Usage
+            - Enable Biling
+            - Manage Permissions and credentials
+            - Enable Service and API
+        - Project use 3 identifying attributes
+            - Project Name
+            - Project Number
+            - Project ID
+        - Cloud Console or Cloud Resource Manager API
+    - [GCP Resources](../images/resources.jpg)
+        - Folder and Organization are part of gsuit
+        - Global Resources
+            - Accessible from Anywhere in GCP 
+                - Network, Disk Image, Snapshort, Networks
+        - Regional Resources
+            - Accessible Only inside Region
+                - Static IP address
+        - Zonal Resources
+            - Accessible Only inside Zones
+                - Virtual machines instances, VM Disks etc
+        - Resource Manager Features
+            - central manage hierarchy
+            - central manage & track all your projects
+            - manage IAM across your ORG
+            - manage ORG and ORG Policy
+            - Create and manage cloud IAM policies
+            - Cloud console and IAM access
+            - manage cloud folders
+    - [GCP Access Permissions](../images/iam%20role.jpg)
+        - USER/GROUP 
+        - ROLES  
+        - PERMISSIONS :- for individual service, cloud resources
+        - try to remember Hitesh sir lecture on this topic from AWS real world cloud architect course
+        - user is added in IAM and given some role(view,editor,admin,..) with some permission(restriction,allowing to perform specific task)
+        - [billing](../images/iam%20%20role%20billing.jpg)
+    - GCP Cloud Billings, Alerts
+        - we can create multiple billing account and transfer the project to other billing account and pay the bill from new billing account 
+            - means we can add multiple card details for each time new billing account we create and transfer the bill for the project to new billing account and use new credit card to pay the bill. 
+        - we can create the alert for the project and we will get alert trigger/notification when we reach the threshold limit.
+    - Quota and Limits
+        - IAM--->QUOTAS
+        - Quotas
+            - **it defines limits per resources**
+            - there are different types of quotas depends on type of resources
+            - defines as global or regional quotas
+            - benefit
+                - controls budget
+                - limit resources utilizations on different levels
+                - you can increase any time with console request
+        - ALL resources are subject to project quotas & limits
+            - how many resources you can create per project
+            - how quickly you can make API request in project - rate limit
+            - some quota application to region/zone
+        - we can increase the quota through self service form
+        - no. of GPUs
+        - 32 CPUs per region
+        - LIMITS
+            - hard limits which we can not extend
+            - we can say this is the way system is designed
+            - ex:- 15500 VMs in VPC AND 5 NETWORKS/vpc PER PROJECTS
+    - Service Account
+        - IAM--> Service account
+        - **it is used for application to application access/communication**
+        - we can provide the role for such accounts
+        - let us assume we create new VM and we will make it as face of some application and then we will make integration between bucket(similar to s3 in AWS) and VM so that all the content which is available in the bucket is displayed/accessed by VM based on the role assigned to the service account.
+        - fine grained control on which application do what
+        - used based on secure token(access key-id)
+        - 3 types of service accounts in nutshell
+            - you can create service account
+            - built-in for virtual machines and APP engine
+            - used by goggle API internally.
+    - Infrastructure Service
+        - Resource Manager
+            - organize and manage- projects, folders, organizations, resources
+        - IAM
+            - fine grained access control
+            - roles, individual account, service account etc.
+        - STACKDRIVER SERVICE
+            - Monitoring, logging, tracing, debugging, error reporting
+        - Development manager
+            - setup deployment & release management process
+        - storage, scaling....
+            - auto scaling, cloud pub/sub,..        
+    - [Pricing Calculator](https://cloud.google.com/products/calculator)
+        - 
