@@ -9,7 +9,7 @@ This repository contains some notes i wrote while learning from [Course from UDE
 ### While learning from udemy i have parallely done HANDSON lab from [cloudskillboost](https://www.cloudskillsboost.google/)
 
 
-- Check my earned badges 
+- Check my Google Cloud [Profile](https://www.cloudskillsboost.google/public_profiles/778d7e16-9a45-4850-87fc-a605057f25b2)
 
 
 
