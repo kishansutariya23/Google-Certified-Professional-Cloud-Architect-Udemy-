@@ -25,14 +25,14 @@ This repository contains some notes i wrote while learning from [Course from UDE
 
 [![Linkedin Badge][linkedinbadge]][linkedin] 
 [![instagram](https://img.shields.io/badge/Instagram-da3b5a?style=flat&logo=instagram&logoColor=white&link=https://www.instagram.com/ks23code/)][instagram] [![Twitter Badge](https://img.shields.io/badge/-@ks23_code-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/ks23_code)][twitter] 
-[![YouTube Badge](https://img.shields.io/badge/-ks23code-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)][youtube] [![Mail Badge](https://img.shields.io/badge/-ks23.code@gmail.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)][gmail] 
+[![YouTube Badge](https://img.shields.io/badge/-kishansutariya23-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)][youtube] [![Mail Badge](https://img.shields.io/badge/-kishansutariya23.in@gmail.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)][gmail] 
 
 
 [linkedin]: https://www.linkedin.com/in/kishankumar-sutariya/
 [twitter]: https://twitter.com/ks23_code?t=slipKXB8ZbZG4wDzoTxQ&s=09
 [data.world]: https://data.world/dataman-udit
-[youtube]: https://www.youtube.com/@ks23code
-[gmail]: mailto:ks23.code@gmail.com
+[youtube]: https://www.youtube.com/@kishansutariya23
+[gmail]: mailto:kishansutariya23.in@gmail.com
 [skype]: skype:------?call
 [instagram]: https://www.instagram.com/ks23code
 

@@ -9,7 +9,7 @@ Cloud Architect Activities
 - Consulting
 - Contracts and legal
 
-kEY SKILLS
+KEY SKILLS
 - OS
 - Programming
 - Networking
